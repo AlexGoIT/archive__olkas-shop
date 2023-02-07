@@ -1,1 +1,1 @@
-# olkas.shop
+# olkas-shop
