@@ -7,6 +7,31 @@ body {
   font-size: 15px;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
 .container {
   max-width: 1180px;
   margin-left: auto;
