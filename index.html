@@ -20,36 +20,39 @@
   </head>
   <body>
     <header>
-      <ul class="lang-list">
-        <li class="lang-item">ru</li>
-        <li class="lang-item">en</li>
-      </ul>
-      <a href="./index.html" class="logo">olkas.shop</a>
-      <nav class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">
-              <svg class="navigation-icon">
-                <use></use>
-              </svg>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">
-              <svg class="navigation-icon">
-                <use></use>
-              </svg>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">
-              <svg class="navigation-icon">
-                <use></use>
-              </svg>
-            </a>
-          </li>
+      <div class="container header">
+        <ul class="lang-list">
+          <li class="lang-item"><a href="#" class="link lang-link">ru</a></li>
+          <li class="lang-item"><a href="#" class="link lang-link">en</a></li>
         </ul>
-      </nav>
+        <a href="./index.html" class="link logo">olkas.shop</a>
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">
+                <svg class="navigation-icon" width="21" height="18">
+                  <use href="./img/icons.svg#icon-heart"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">
+                <svg class="navigation-icon" width="16" height="18">
+                  <use href="./img/icons.svg#icon-handbag"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">
+                <svg class="navigation-icon" width="18" height="18">
+                  <use href="./img/icons.svg#icon-find"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="menu-button"><span></span></button>
+      </div>
     </header>
     <main>
       <section class="hero"></section>
