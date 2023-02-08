@@ -89,8 +89,7 @@ button {
 }
 
 .navigation {
-  width: 100%;
-  margin-left: 432px;
+  margin-left: auto;
   display: flex;
   align-items: center;
 }
@@ -125,7 +124,8 @@ button {
 .menu-button {
   width: 18px;
   height: 18px;
-  margin-left: auto;
+  /* margin-left: auto; */
+  margin-left: 128px;
   display: flex;
   align-items: center;
   position: relative;
