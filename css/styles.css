@@ -81,7 +81,6 @@ button {
 }
 
 .logo {
-  margin-left: 432px;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 15px;
@@ -90,12 +89,14 @@ button {
 }
 
 .navigation {
-  margin-left: 218px;
+  width: 100%;
+  margin-left: 432px;
   display: flex;
   align-items: center;
 }
 
 .navigation-list {
+  margin-left: 218px;
   display: flex;
   align-items: center;
   gap: 30px;
