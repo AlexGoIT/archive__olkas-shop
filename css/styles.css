@@ -1,11 +1,12 @@
 :root {
-  --background-color: #FFFFFF;
+  --background-color: #ffffff;
   --logo-font-color: #000000;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
+  font-weight: 400;
   color: #000000;
 }
 
@@ -73,6 +74,10 @@ button {
   font-size: 16px;
 }
 
+.current-lang {
+  font-weight: 600;
+}
+
 .logo {
   margin-left: 432px;
   text-transform: uppercase;
@@ -99,7 +104,12 @@ button {
 }
 
 .navigation-icon {
-  fill: #000000;
+}
+
+.handbag-count {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.26;
 }
 
 .menu-button {
@@ -121,7 +131,6 @@ button {
   height: 2px;
   left: 0;
   background-color: #000000;
-  
 }
 
 .menu-button > span::after {
@@ -133,26 +142,6 @@ button {
   content: "";
   top: -7px;
 }
-
-/* .menu-button::after > span {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  left: 0;
-  top: 8px;
-  background-color: #000000;
-}
-
-.menu-button::before > span {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  left: 0;
-  top: 8px;
-  background-color: #000000;
-} */
 /* ========== HEADER ========== */
 
 /* ========== HERO SECTION ========== */
