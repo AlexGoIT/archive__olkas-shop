@@ -72,6 +72,8 @@ button {
 .lang-link {
   text-transform: uppercase;
   font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.2em;
 }
 
 .current-lang {
@@ -81,6 +83,10 @@ button {
 .logo {
   margin-left: 432px;
   text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.25em;
 }
 
 .navigation {
@@ -100,7 +106,7 @@ button {
 
 .navigation-link {
   display: flex;
-  align-items: center;
+  position: relative;
 }
 
 .navigation-icon {
@@ -109,7 +115,10 @@ button {
 .handbag-count {
   font-weight: 600;
   font-size: 15px;
-  line-height: 1.26;
+  line-height: 1.27;
+  position: absolute;
+  bottom: -3px;
+  right: -8px;
 }
 
 .menu-button {
